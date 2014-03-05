@@ -96,3 +96,40 @@ h1 {
   font-size: 20px;
   margin: 0;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    background-position: center;
+  }
+  #cover {
+    opacity: 0.7;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 50px;
+    position: static;
+    margin-left: 15%;
+    padding: 0 10px;
+    text-align: left;
+  }
+  #social {
+    top: 0;
+    left: -30px;
+  }
+  #social a {
+    margin-bottom: 5px;
+  }
+  #social a span {
+    display: none;
+  }
+  #content {
+    position: static;
+    width: auto;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 0 10px;
+    padding-bottom: 10%;
+  }
+  #content h2 {
+    font-size: 19px;
+  }
+}
