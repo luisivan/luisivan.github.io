@@ -2,13 +2,23 @@
   font-family: 'Inconsolata';
 }
 
+body {
+  padding: 1em;
+}
+
 main {
-  max-width: 512px;
-  width: 25%;
+  max-width: 356px;
+  width: 100%;
   margin: auto;
   margin-top: 128px;
 
   font-size: 1em;
+}
+
+@media only screen and (max-device-width: 480px) {
+  main {
+    margin-top: 2em;
+  }
 }
 
 main header {
