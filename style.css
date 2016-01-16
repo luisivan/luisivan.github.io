@@ -1,135 +1,78 @@
 * {
-  font-family: 'Glegoo', serif;
+  font-family: 'Inconsolata';
 }
-html,
-body {
-  width: 100%;
-  height: 100%;
+
+main {
+  max-width: 512px;
+  width: 25%;
+  margin: auto;
+  margin-top: 128px;
+
+  font-size: 1em;
 }
-a {
-  color: #C80732;
-}
-body {
-  background-image: url(/img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#cover {
-  background: white;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.5;
-  z-index: -1;
-}
-h1 {
-  position: fixed;
-  left: 10%;
+
+main header {
+  margin-bottom: 2em;
   text-align: center;
-  font-size: 100px;
-  line-height: 100px;
-  margin-top: 1.5%;
-  color: #C80732;
 }
-#social {
-  position: fixed;
-  top: 17%;
-  left: 10%;
+
+main header img {
+  /*display: inline-block;
+  vertical-align: middle;*/
+  border-radius: 50%;
 }
-#social a {
-  display: block;
-  position: relative;
-  width: 72px;
-  height: 72px;
-  margin-bottom: 10px;
-  background-image: url(/img/social/sprite.png);
-  opacity: 0.7;
+
+main header h1 {
+  /*display: inline-block;
+  margin-left: 1em;*/
+  margin-top: 1em;
 }
-#social a:hover {
-  opacity: 1;
+
+ul {
+  margin-left: 1em;
 }
-#social a span {
-  position: absolute;
-  padding-top: 26px;
-  padding-bottom: 26px;
-  padding-left: 80px;
-  font-size: 20px;
-  line-height: 20px;
-  text-transform: uppercase;
-  opacity: 0;
+
+ul li {
+  line-height: 1.25em;
 }
-#social a span:hover {
-  opacity: 1;
+
+a#music {
+  color: #1ED760;
 }
-#social #blog {
-  background-position: 0 0;
+
+a#twitter {
+  color: #55ACEE;
 }
-#social #twitter {
-  background-position: -72px -72px;
+
+a#instagram {
+  color: #9b6954;
 }
-#social #linkedin {
-  background-position: -144px -144px;
+
+a#linkedin {
+  color: #0077B5;
 }
-#social #github {
-  background-position: -216px -216px;
+
+a#blog {
+  color: #FF6600;
 }
-#social #lastfm {
-  background-position: -288px -288px;
+
+a#github {
+  color: #808080;
 }
-#social #instagram {
-  background-position: -360px -360px;
+
+a#email {
+  color: #F9D654;
 }
-#social #mail {
-  background-position: 72px 72px;
+
+a#stampery {
+  color: #2079CC;
 }
-#content {
-  position: fixed;
-  width: 32%;
-  height: 50%;
-  top: 21%;
-  right: 10%;
-  padding: 10px;
+
+a#life {
+  color: #692433;
 }
-#content h2 {
-  font-size: 20px;
-  margin: 0;
-}
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  body {
-    background-position: center;
-  }
-  #cover {
-    opacity: 0.7;
-  }
-  h1 {
-    font-size: 25px;
-    line-height: 50px;
-    position: static;
-    margin-left: 15%;
-    padding: 0 10px;
-    text-align: left;
-  }
-  #social {
-    top: 0;
-    left: -30px;
-  }
-  #social a {
-    margin-bottom: 5px;
-  }
-  #social a span {
-    display: none;
-  }
-  #content {
-    position: static;
-    width: auto;
-    margin-left: 15%;
-    margin-top: 5%;
-    padding: 0 10px;
-    padding-bottom: 10%;
-  }
-  #content h2 {
-    font-size: 19px;
-  }
+
+a:hover {
+  transition: opacity 0.25s ease-in-out;
+  opacity: 0.75;
 }
