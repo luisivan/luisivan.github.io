@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  /*background-image: linear-gradient(to top right, rgba(0,0,0,0.75) 25%, transparent), url(/rsc/bg.jpg);*/
+  background-image: url(/rsc/bg.jpg);
+  background-size: cover;
+  background-position: center -128px;
+  background-repeat: no-repeat;
+  animation: fadein 2.5s;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Muli', sans-serif;
+}
+
+.pure-g {
+  height: 100%;
+}
+
+#content {
+  height: 100%;
+  padding-left: 2.5rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+#social {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+#social a {
+  padding-right: 1rem;
+  transition: all 0.25s;
+}
+
+#social a:hover {
+  filter: drop-shadow(0 0 5px #AAAAAA);
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20rem !important;
+  padding-bottom: 1.5rem;
+  /*background-image: linear-gradient(to top, rgba(0,0,0,0.75) 25%, transparent);*/
+}
+
+footer > div > div {
+  height: 50% !important;
+}
+
+footer a {
+  height: 100%;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+footer img {
+  max-width: 10rem;
+  max-height: 4rem;
+  vertical-align: middle;
+  transition: all 0.25s;
+}
+
+footer img:hover {
+  filter: drop-shadow(0 0 5px #AAAAAA);
+}
+
+footer h3 {
+  font-weight: lighter;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    overflow: auto;
+  }
+
+  #bg {
+    background-position: center;
+  }
+
+  #content {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    padding-bottom: 1.5rem;
+  }
+
+  footer {
+    position: static;
+    padding: 2.5rem 0;
+  }
+
+  footer a {
+    margin: 1rem 1rem;
+    position: static;
+    display: block;
+  }
+
+  footer h3 {
+    position: static;
+  }
+
+  footer > div > div {
+    height: auto !important;
+  }
+
+  footer > div:nth-child(8) {
+    margin-bottom: 2.5rem;
+  }
+}

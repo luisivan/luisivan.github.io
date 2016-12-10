@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/li
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://luisivan.net
+  * I am li (https://keybase.io/li) on keybase.
+  * I have a public key with fingerprint 1834 CBEF 4022 B550 5765  1070 DC59 CF69 F198 01F5
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "1834cbef4022b55057651070dc59cf69f19801f5",
+            "host": "keybase.io",
+            "key_id": "dc59cf69f19801f5",
+            "uid": "1dba56f56a90a4c6a5965d50a5be1200",
+            "username": "li"
+        },
+        "service": {
+            "hostname": "luisivan.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396048055,
+    "expire_in": 157680000,
+    "prev": "17ad5555afbb03988e3bc599e30de152a164fa2f0a9b573b60ee7c38c6f0832f",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yML9AnicbZFxTBPnG8dboQyKODJ0nXHM5USms5C7Xt9rryFjGMEQpsGBUyda767v
+tTfLtbTXYlPrNjc2YWNuMopEtoqbSGCdY2JIiI2dLowNsLOKW5i/DSgiEUJ/hGHo
+NqNXMv/b88/leZ7P9/vc8z7fpyVI5NLbe0Lc3EnpgnQgOO2QlBGSHjdCWwwuROdG
+DsKlD8vxRmiz2jheQHQIpsXVDA1ZNapS0QCgQEMADNWgBgaQDEuQLEZqUYwFiBIx
+WexxhWhDU3aYy1nEmpjoOYNY/Q/esdTADDQFCBYQFIlSaoagAEkAA0ApQENMhaJx
+0A5tPFUJRdrMIR4lIuZOjhFz99LQxz0HZ+ecFJ/LQ0FUWW0WwcJYzGLHJAhWXVwo
+uKxxshrS+n899DTHG8SNRYET2uychUd0mEgyAhc3xXCSQNVaFAAlAg9ZORvUc3FC
+fAYtKkZ8DHTG19BQBiAGxdI0ipNaLcRpcWUS4qgBYkBFYYSapVQsSpE00OA0gUKo
+YXAtQ7CoFlex4nw7rOItiE4t/iZlFC3tnJGnBIcNIp4r31UkSqRySZJsWfxmEnlK
++uNLnktLlwQLf7l5v75Gvi7ySvK0MStvhMlaFF5+1/7n3uiHLYX+I7ji5u8lXhAb
+0g/fGWlNqpDfnSz3EdEP0o5euLjienD3cuH9byuyFz6n/W/Wbr116Xl5tTMULLhQ
+/Koru1m/L4znJvfeeKnO6E3dfOxGdMwTyz58PD/tAVQ97CMiihO087zrZNXAw/Pe
+sOJMqcnTxJaf6mCN99bt7nevauvoTpjqDZV3BYJrYuY27NM7OWWjt7fMZdr/l1Pc
+sOfI3186yMvBllj9PzUfTbx18cdLMn845fKmnDdCCvLQKi/acutJeqawyrh+vHLZ
+psBemabugK/jr4ldLs9CsiIza2hY537G3S4E0NQNM/Wnn369/fC2DV15Q+/IInfb
+R9Py6b5mU/L1P/pW9/cvPptZpIulGmt2UcJU65XlnxSXzv+cYV6znXig7olKXxua
+PLO2acC8X7Oxs645rMivBV07G30lga+rA97+8NyxjcovthskZ1vvtb1A7lQkHuf4
+ykjibwW1Sq7isy3dm0/1jqgXrS/+avVtW+lvaHROr7Ak9c6ufXt231zK1OQO8ofx
+b0KRPLXtRH5TR0MGN9Gi2W/qPtc4KGk6MOobnJ84e23rTyWDGaqDQFZUlH56eH6m
+gF+Zqdrh6wxee+L//p6v5Ee7ZodN4+ufy776XunHYwmdpPMpLFp2/+rqsUfBYJO1
+=nDeb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/li
+
+==================================================================
+

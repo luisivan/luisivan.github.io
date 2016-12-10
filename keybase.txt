@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/li
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://luisivan.net
+  * I am li (https://keybase.io/li) on keybase.
+  * I have a public key with fingerprint 97B1 D9CF 07FA 32ED F3BF  AEDB 104A E21F BAA8 7B0A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "97b1d9cf07fa32edf3bfaedb104ae21fbaa87b0a",
+            "host": "keybase.io",
+            "key_id": "104ae21fbaa87b0a",
+            "kid": "0101f3432c31088bc9bd73c42709d01e102f7ec1fead2eb9fb605953ae4bcbb4dc840a",
+            "uid": "1dba56f56a90a4c6a5965d50a5be1200",
+            "username": "li"
+        },
+        "service": {
+            "hostname": "luisivan.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1437394062,
+    "expire_in": 157680000,
+    "prev": "3d9802d418cb90ab96cb6cb412bb063cd71d918d2d30f86798cfd3249d81d79e",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.20
+Comment: https://keybase.io/crypto
+
+yMIXAnicbVJbSFRBGF61ojYNg9ag3g6LvSzbzLmf7aGMjC76UohRxjZzZo6etHP2
+cvZkLkvE9rBB+WK1m3QhMigJwksEhqVlFGSlXV6SorCIegi6SBfYao7VW8PA8P//
+933/fDP/WEWZz19SqF0S/zh4ZLjk3uiqlK/h0uvONIdtso+LpLlWOnsYptVME7GE
+aTlchNMUDImmG0AxkMBTYgjYQJRgCEREeWhghFQFA8SFuBY76TGYDEZJGjZtlmNB
+1CQs+x9862wBQAANQRR4XYBAVbGuYaIIusgrQCMAUgh4Q6E6NCgiPMWagWUgaZKA
+qIh1jEWiq+KsXOpPH4KRJBuSjDSARF1GkiZLRAJIwhTyAHjAJE1YaA9l6DaTy4Q4
+FrumTj3znod/tZSZNF1khS3qMFYsYTu2brexSovjxJIRj+nsi3nQvRRH/4pEsWkR
+9oKM4dJE0rQtLgIZUndMTxWKgiJoIpD5EEfbY2aCRk0PISmyCtjy+lCXSQpEUwFP
+RKjqmDnBmqxjtkXIYwxkQScK+xaoEp4IwFBlRVN1gwi8qBEVEkWjnGcrbtlcRGXX
+RM1MMmk2W8hJJSiXuTnSNMdX4vfNm1vqzYDPv6Dy32QUrfm+0w/N7+XtK1b/fCWN
+bHncEL5TImfb8ovWBxob3aHs2Gh/ILd7y2h+q1u4e3E5nw7mJkoXPut5vH0wfOvo
+tv2ZgtV7ffjD6KeaL/Ongu+M9Hg6VtdXP9BSXXaIWBWZXeWXvz6I3o9m+mueXHh0
+aiR3rmrn8c/3m5/33yqaG1dWoaeHp5cumay/tu7Be/l5U949Vj3ZEUhNbH0ptA/F
+O5+prff6qtzYQJ19+8Vk7uqG7JtxfsYJXSluulGz53bpjmr/zN2us6F13YW1gWJt
+7Zm505W/8st698dPTpx4MZXtDgY/d9kVY1N1a97GD56Hp8pBoKPH/TZ9YPDHu6qy
+mc0bF/8G9c8uvQ==
+=5RHg
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/li
+
+==================================================================
+
