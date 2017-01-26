@@ -14,7 +14,9 @@ html, body {
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
+  display: flex;
+  flex-flow: column;
 }
 
 @keyframes fadein {
@@ -44,6 +46,8 @@ html, button, input, select, textarea,
 
 .pure-g {
   height: 100%;
+  min-height: 66%;
+  flex: auto;
 }
 
 #content {
@@ -71,10 +75,6 @@ html, button, input, select, textarea,
 }
 
 footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
   height: 20rem !important;
   padding-bottom: 1.5rem;
   /*background-image: linear-gradient(to top, rgba(0,0,0,0.75) 25%, transparent);*/
@@ -120,10 +120,11 @@ footer h3 {
 @media only screen and (max-width: 767px) {
   body {
     overflow: auto;
+    display: block;
   }
 
   #bg {
-    background-position: center;
+    background-position: 50% -128px;
   }
 
   #content {
