@@ -14,9 +14,7 @@ html, body {
 }
 
 body {
-  overflow: auto;
-  display: flex;
-  flex-flow: column;
+  overflow: hidden;
 }
 
 @keyframes fadein {
@@ -26,30 +24,63 @@ body {
 
 /* */
 
+body > .pure-g {
+  height: 100%;
+}
+
+h2 {
+  font-weight: normal;
+}
+
 #face {
   background-color: #554381;
   background-image: url(/rsc/face.jpg);
   background-position: center;
   background-size: 50%;
   background-repeat: no-repeat;
+  min-height: 100%;
+  padding: 1rem 3rem;
+  position: relative;
+}
+
+#face h2 {
+  color: white;
+  text-align: center;
+}
+
+#social {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 #info {
   padding: 1rem;
+  height: 100%;
+  overflow: scroll;
+  color: #554381;
+}
+
+#info h2 {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 #info a {
   height: 100%;
-  margin: 0 1rem;
   text-decoration: none;
   text-align: center;
   padding-bottom: 1.5rem;
   display: block;
+  width: 100%;
+  line-height: 3rem;
 }
 
 #info img {
   max-width: 10rem;
-  max-height: 4rem;
+  max-height: 3rem;
   vertical-align: middle;
   transition: all 0.25s;
 }
@@ -58,14 +89,35 @@ body {
   filter: drop-shadow(0 0 5px #AAAAAA);
 }
 
-#info h3 {
+#info h4 {
   font-weight: lighter;
   margin-bottom: 0;
   width: 100%;
   text-align: center;
+  margin: 0;
 }
 
-/* */
+@media only screen and (max-width: 767px) {
+  body > .pure-g {
+    height: auto;
+  }
+
+  h2 {
+    text-align: center;
+    margin-left: 0 !important;
+  }
+
+  #face {
+    min-height: 25rem;
+  }
+
+  #info {
+    overflow: hidden;
+    min-height: 100%;
+  }
+}
+
+/*
 
 #bg {
   position: absolute;
@@ -74,7 +126,6 @@ body {
   left: 0;
   right: 0;
   z-index: -1;
-  /*background-image: linear-gradient(to top right, rgba(0,0,0,0.75) 25%, transparent), url(/rsc/bg.jpg);*/
   background-image: url(/rsc/bg.jpg);
   background-size: cover;
   background-position: center -128px;
@@ -87,7 +138,7 @@ html, button, input, select, textarea,
   font-family: 'Muli', sans-serif;
 }
 
-.pure-g {
+body > .pure-g {
   height: 100%;
   min-height: 66%;
   flex: auto;
@@ -120,7 +171,6 @@ html, button, input, select, textarea,
 footer {
   height: 20rem !important;
   padding-bottom: 1.5rem;
-  /*background-image: linear-gradient(to top, rgba(0,0,0,0.75) 25%, transparent);*/
 }
 
 footer > div > div {
@@ -201,3 +251,4 @@ footer h3 {
     margin-bottom: 2.5rem;
   }
 }
+*/
