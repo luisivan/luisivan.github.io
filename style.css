@@ -71,7 +71,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-#info a {
+#info .pure-u-md-1-3 a {
   height: 100%;
   text-decoration: none;
   text-align: center;
@@ -98,6 +98,22 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 0;
+}
+
+#whitepapers {
+  padding-left: 3.25rem;
+}
+
+#whitepapers a {
+  color: #0c0c0c;
+  font-weight: lighter;
+  margin: 1rem 0;
+  display: block;
+  transition: all 0.25s;
+}
+
+#whitepapers a:hover {
+  color: #554381;
 }
 
 @media only screen and (max-width: 767px) {
